@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "oyaro/flaskapp"
+    dockerimagename = "oyaro/flaskapp1"
     dockerImage = ""
   }
 
