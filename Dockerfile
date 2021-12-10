@@ -2,8 +2,8 @@ FROM ubuntu
 
 WORKDIR /app
 EXPOSE 5000
-ENV FLASK_APP=app.py
-COPY . /app
+ENV FLASK_APP=index.py
+COPY index.py /app
 
 RUN apt-get update
 RUN apt install -y python
