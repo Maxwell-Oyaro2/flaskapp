@@ -16,7 +16,7 @@ spec:
         app: flaskapp
     spec:
       containers:
-       - image: oyaro/flaskapp:latest
+       - image: oyaro/flaskapp1:latest
          name: flaskapp
          ports:
          - containerPort: 3000
